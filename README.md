@@ -16,9 +16,9 @@ This is a simple example of my solution to the bounded buffer problem.
  2. Run the executable with "./BB x y z".
 
  ** Example ** 
- Sleep Time : x = 10
- # of producers : y = 2
- # of consumers : z = 3
+' Sleep Time : x = 10'
+ '# of producers : y = 2'
+ '# of consumers : z = 3'
 
  To execute the file with these values, run the command as follows:
  "./BB 10 2 3"
