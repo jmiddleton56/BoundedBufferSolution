@@ -27,7 +27,7 @@ void remove_item(int *threadID);
 int main(int argc, char *argv[]) {
     srand((unsigned int) time(NULL)); // Use current time as seed for random generator
     // 1. Get command-line arguments argv[1],argv[2],argv[3]
-    unsigned char sleepTime = atoi(argv[1]); // Changed from ints to unsigned chars to avoid warning, still unsure of why this was happening
+    unsigned char sleepTime = atoi(argv[1]); 
     sleepTime += 20;
     unsigned char num_producers = atoi(argv[2]);
     unsigned char num_consumers = atoi(argv[3]);
